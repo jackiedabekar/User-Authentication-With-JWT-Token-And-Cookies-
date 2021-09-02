@@ -42,6 +42,8 @@ Assign a string based <strong>SECRETE_KEY</strong> to it before running below co
 
 - To Run The Project Type Below Command
 ```shell
+python manage.py makemigrations
+python manage.py migrate
 python manage.py runserver
 ```
 
